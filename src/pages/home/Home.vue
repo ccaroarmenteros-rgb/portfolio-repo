@@ -1,15 +1,71 @@
-<script lang="ts" setup>
+ <script lang="ts" setup>
+import { Button } from '@/components/ui/button'
+
+
+
+
 
 
 </script>
 
+
+
+
 <template>
 
-<h1>Diseño web y apps interactivas</h1>
+
+<div class="bg-[rgb(255,255,255)] h-screen text-black font-sans text-center w-screen flex flex-col justify-center items-center gap-12 fixed overflow-hidden">
 
 
+
+
+
+<h1 class=" text-5xl md:text-7xl lg:text-7xl font-bold pb-5 md:pb-20 z-10 transition-all">
+<span >Cristina Caro</span>
+</h1>
+
+
+<p class="text-lg md:text-2xl transition-all">
+  Aprendiendo a crear aplicaciones web
+</p>
+
+
+
+
+<div class="z-10">
+   <Button class="bg-[rgb(162,196,70)] mr-2 md: py-5 md:px-6 md: text-lg hover:bg-[rgb(162,196,70,0.7)] transition-all">
+      <RouterLink to="/informacion">¿Quién soy?</RouterLink>
+   </Button>
+
+
+    <Button class="bg-[rgb(162,196,70)] mr-2 md: py-5 md:px-6 md: text-lg hover:bg-[rgb(162,196,70,0.7)] transition-all">
+      <RouterLink to="/modelado">Modelado</RouterLink>
+   </Button>
+
+
+    <Button class="bg-[rgb(162,196,70)] mr-2 md: py-5 md:px-6 md: text-lg hover:bg-[rgb(162,196,70,0.7)] transition-all">
+      <RouterLink to="/llaveros">Llaveros</RouterLink>
+   </Button>
+
+
+    <Button class="bg-[rgb(162,196,70)] mr-2 md: py-5 md:px-6 md: text-lg hover:bg-[rgb(162,196,70,0.7)] transition-all">
+    <RouterLink to="/juego">Juego de mesa</RouterLink>
+   </Button>
+  
+
+
+    </div>
+
+
+   </div>
 </template>
 
+
 <style scoped>
+ 
+
+
+
 
 </style>
+
