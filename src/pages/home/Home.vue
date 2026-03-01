@@ -20,15 +20,13 @@ import { Button } from '@/components/ui/button'
 
 
 
-<h1 class=" text-5xl md:text-7xl lg:text-7xl font-bold pb-5 md:pb-20 z-10 transition-all">
-<span >Cristina Caro</span>
+<h1 class="text-5xl md:text-7xl lg:text-7xl font-bold pb-1 md:pb-1 z-10 transition-all">
+  <span>Cristina Caro</span>
 </h1>
-
 
 <p class="text-lg md:text-2xl transition-all">
   Aprendiendo a crear aplicaciones web
 </p>
-
 
 
 
