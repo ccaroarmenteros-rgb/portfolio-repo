@@ -42,12 +42,12 @@ import { Button } from '@/components/ui/button'
 
 
     <Button class="bg-[rgb(162,196,70)] mr-2 md: py-5 md:px-6 md: text-lg hover:bg-[rgb(162,196,70,0.7)] transition-all">
-      <RouterLink to="/llaveros">Llaveros</RouterLink>
+      <RouterLink to="/diseño">Diseño</RouterLink>
    </Button>
 
 
     <Button class="bg-[rgb(162,196,70)] mr-2 md: py-5 md:px-6 md: text-lg hover:bg-[rgb(162,196,70,0.7)] transition-all">
-    <RouterLink to="/juego">Juego de mesa</RouterLink>
+    <RouterLink to="/audiovisual">Audiovisual</RouterLink>
    </Button>
   
 

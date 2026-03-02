@@ -7,7 +7,7 @@
 
 <template>
     <div>
-<p>Juego de mesa</p>
+<p>Audiovisual</p>
     </div>
 </template>
 

@@ -6,7 +6,7 @@
 
 <template>
     <div>
-<p>llaveros</p>
+<p>diseño</p>
     </div>
 </template>
 
