@@ -25,7 +25,7 @@ import { Button } from '@/components/ui/button'
 </h1>
 
 <p class="text-lg md:text-2xl transition-all">
-  Aprendiendo a crear aplicaciones web
+ Diseño y modelado
 </p>
 
 
