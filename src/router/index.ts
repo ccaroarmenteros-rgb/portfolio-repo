@@ -8,6 +8,7 @@ import Informacion from "@/pages/informacion/Informacion.vue";
 import Muñeca from "@/pages/modelado/Muñeca.vue";
 import Bici from "@/pages/modelado/Bici.vue";
 import Llaveros from "@/pages/modelado/Llaveros.vue";
+import Detalle from"@/pages/modelado/Detalle.vue";
 
 export const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -33,6 +34,11 @@ export const router = createRouter({
        component: Informacion
     },
     {
+      path: '/modelado/:id', 
+      name: 'detalle-modelado',
+      component: Detalle
+    },
+    {
        path: '/modelado',
        name: 'modelado',
        component: Modelado,
@@ -56,4 +62,5 @@ export const router = createRouter({
        ]
     }
   ]
+  
 })

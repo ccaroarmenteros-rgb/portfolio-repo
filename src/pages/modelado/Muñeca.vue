@@ -16,15 +16,15 @@ const plugins = [
 
 
 const proceso = [
-  { id: 1, src: '/imagenes/Modelado/Boceto.jpg', alt: 'Boceto' },
-  { id: 2, src: '/imagenes/Modelado/Plastilina.jpg', alt: 'Plastilina' },
-  { id: 3, src: '/imagenes/Modelado/Alambre.jpg', alt: 'Alambre' },
-  { id: 4, src: '/imagenes/Modelado/Plata.jpg', alt: 'Papel de plata' },
-  { id: 5, src: '/imagenes/Modelado/Modelado.jpg', alt: 'Modelar' },
-  { id: 6, src: '/imagenes/Modelado/Horneado.jpg', alt: 'Horneado' },
-  { id: 7, src: '/imagenes/Modelado/Lijar.jpg', alt: 'Lijar' },
-  { id: 8, src: '/imagenes/Modelado/Pintar.jpg', alt: 'Pintar' },
-  { id: 9, src: '/imagenes/Modelado/Barnizar.jpg', alt: 'Barnizar' },
+  { id: 1, src: '/imagenes/Modelado/Boceto.jpg', alt: '' },
+  { id: 2, src: '/imagenes/Modelado/Plastilina.jpg', alt: '' },
+  { id: 3, src: '/imagenes/Modelado/Alambre.jpg', alt: '' },
+  { id: 4, src: '/imagenes/Modelado/Plata.jpg', alt: '' },
+  { id: 5, src: '/imagenes/Modelado/Modelado.jpg', alt: '' },
+  { id: 6, src: '/imagenes/Modelado/Horneado.jpg', alt: '' },
+  { id: 7, src: '/imagenes/Modelado/Lijar.jpg', alt: '' },
+  { id: 8, src: '/imagenes/Modelado/Pintar.jpg', alt: '' },
+  { id: 9, src: '/imagenes/Modelado/Barnizar.jpg', alt: '' },
  
 ]
 const resultado = [
@@ -32,8 +32,8 @@ const resultado = [
   { id: 2, src: '/imagenes/Modelado/Resultado2.jpg', alt: '' },
   { id: 3, src: '/imagenes/Modelado/Resultado3.jpg', alt: '' },
   { id: 4, src: '/imagenes/Modelado/Resultado4.jpg', alt: '' },
-  { id: 4, src: '/imagenes/Modelado/Resultado5.jpg', alt: '' },
-  { id: 4, src: '/imagenes/Modelado/Doméstica.jpg', alt: '' },
+  { id: 5, src: '/imagenes/Modelado/Resultado5.jpg', alt: '' },
+  { id: 6, src: '/imagenes/Modelado/Doméstica.jpg', alt: '' },
 ]
 </script>
 
