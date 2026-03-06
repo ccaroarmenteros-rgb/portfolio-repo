@@ -31,11 +31,11 @@ import { modelados } from './data';
             >
               <CardContent class="flex aspect-square items-center justify-center p-0 relative bg-muted">
                 
-                <img 
-                  :src="item.src" 
-                  :alt="item.titulo" 
-                  class="w-full h-full object-cover"
-                />
+               <img 
+                :src="item.imagenCarrusel" 
+                :alt="item.titulo" 
+                class="w-full h-full object-cover"
+              />
                 
               </CardContent>
             </Card>

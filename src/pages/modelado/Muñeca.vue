@@ -45,7 +45,7 @@ const resultado = [
       
       <img 
         src="/imagenes/Modelado/Banner.jpg" 
-        alt="Fondo de la sección modelado" 
+        alt="" 
         class="absolute inset-0 w-full h-full object-cover z-0"
       />
       
@@ -79,7 +79,7 @@ const resultado = [
   <a href="https://www.instagram.com/soyounlee/" target="_blank" class="block hover:opacity-90 transition-opacity">
     <img 
       src="/imagenes/Modelado/Introducción.jpg" 
-      alt="Arte So Youn Lee" 
+      alt="" 
       class="w-full h-auto rounded-xl shadow-lg object-cover"
     >
   </a>
@@ -133,13 +133,13 @@ const resultado = [
 
     <img 
       src="/imagenes/Modelado/Elemento1.png" 
-      alt="Fondo decorativo izquierdo" 
+      alt="" 
       class="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 w-1/1 max-w-200 object-contain opacity-60 -z-10 pointer-events-none"
     />
 
     <img 
       src="/imagenes/Modelado/Elemento2.png" 
-      alt="Fondo decorativo derecho" 
+      alt="" 
       class="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 w-1/1 max-w-200 object-contain opacity-60 -z-10 pointer-events-none"
     />
     <Carousel
