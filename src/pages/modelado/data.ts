@@ -13,48 +13,48 @@ export const modelados: Modelado[] = [
     titulo: 'Escarabajo',
     imagenCarrusel: '/imagenes/Modelado/Escarabajo.png', 
     videoDetalle: '/imagenes/Modelado/Escarabajo.MP4',          
-    descripcion: 'Llavero escarabajo azul y blanco con avalorios.'
+    descripcion: 'Llavero de escarabajo azul y blanco con avalorios.'
   },
   {
     id: 2,
-    titulo: 'Resultado estático',
-    imagenCarrusel: '/imagenes/Modelado/PortadaAnimacion1.jpg', 
-    videoDetalle: '/imagenes/Modelado/animacion1.mp4',
-    descripcion: 'Este modelo solo tiene foto, no tiene vídeo.'
+    titulo: 'Pulpo',
+    imagenCarrusel: '/imagenes/Modelado/Pulpo.png', 
+    videoDetalle: '/imagenes/Modelado/Pulpo.MP4',
+    descripcion: 'Llavero de pulpo rojo con una flor en la cabeza y con avalorios.'
   },
   {
     id: 3,
-    titulo: 'Resultado 3',
-    imagenCarrusel: '/imagenes/Modelado/PortadaAnimacion1.jpg', 
-    videoDetalle: '/imagenes/Modelado/animacion1.mp4',
-    descripcion: 'Información sobre el proceso de creación del tercer modelo...'
+    titulo: 'Pez',
+    imagenCarrusel: '/imagenes/Modelado/Pez.png', 
+    videoDetalle: '/imagenes/Modelado/Pez.MP4',
+    descripcion: 'Llavero de pez verde y amarillo con avalorios.'
   },
   {
     id: 4,
-    titulo: 'Resultado 4',
-    imagenCarrusel: '/imagenes/Modelado/PortadaAnimacion1.jpg', 
-    videoDetalle: '/imagenes/Modelado/animacion1.mp4',
-    descripcion: 'Descripción del cuarto modelo...'
+    titulo: 'Tortuga',
+    imagenCarrusel: '/imagenes/Modelado/Tortuga.png', 
+    videoDetalle: '/imagenes/Modelado/Tortuga.MP4',
+    descripcion: 'Llavero de tortuga azulada con patrones.'
   },
   {
     id: 5,
-    titulo: 'Resultado 5',
-    imagenCarrusel: '/imagenes/Modelado/PortadaAnimacion1.jpg', 
-    videoDetalle: '/imagenes/Modelado/animacion1.mp4',
-    descripcion: 'Descripción del quinto modelo...'
+    titulo: 'Ninfa',
+    imagenCarrusel: '/imagenes/Modelado/Ninfa.png', 
+    videoDetalle: '/imagenes/Modelado/Ninfa.MP4',
+    descripcion: 'Llavero de ninfa'
   },
   {
     id: 6,
-    titulo: 'Doméstica',
-    imagenCarrusel: '/imagenes/Modelado/PortadaAnimacion1.jpg', 
-    videoDetalle: '/imagenes/Modelado/animacion1.mp4',
-    descripcion: 'Análisis y desarrollo de la escena Doméstica...'
+    titulo: 'Perro',
+    imagenCarrusel: '/imagenes/Modelado/Perro.png', 
+    videoDetalle: '/imagenes/Modelado/Perro.MP4',
+    descripcion: 'Llavero de perrito vestido de fresa.'
   },
   {
     id:7,
-    titulo: 'Doméstica',
-    imagenCarrusel: '/imagenes/Modelado/PortadaAnimacion1.jpg', 
-    videoDetalle: '/imagenes/Modelado/animacion1.mp4',
-    descripcion: 'Análisis y desarrollo de la escena Doméstica...'
+    titulo: 'Morsa',
+    imagenCarrusel: '/imagenes/Modelado/Morsa.png', 
+    videoDetalle: '/imagenes/Modelado/Morsa.MP4',
+    descripcion: 'Llavero de morsa lectora.'
   }
 ];

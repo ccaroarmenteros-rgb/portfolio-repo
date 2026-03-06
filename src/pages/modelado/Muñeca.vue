@@ -39,61 +39,54 @@ const resultado = [
 
 
 <template>
-<main>
+  <main class="w-full flex flex-col min-h-screen">
     
+    <nav class="relative z-30 w-full bg-white px-6 py-4 shadow-md flex items-center justify-between">
+      <button 
+        @click="$router.push('/modelado')" 
+        class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium rounded-md transition-colors flex items-center gap-2"
+      >
+        <span>&larr;</span> Volver a Modelado
+      </button>
+    </nav>
+
     <section class="relative w-full h-64 md:h-96 flex items-center justify-center overflow-hidden">
-      
       <img 
         src="/imagenes/Modelado/Banner.jpg" 
         alt="" 
         class="absolute inset-0 w-full h-full object-cover z-0"
       />
-      
       <div class="absolute inset-0 bg-black/50 z-10"></div>
-
       <h1 class="relative z-20 text-5xl md:text-7xl font-bold text-white transition-all text-center px-4">
         FIGURA SO YOUN LEE
       </h1>
-      
     </section>
 
-</main>
+    <section class="w-full bg-[rgb(203,147,179)] text-white">
+      <div class="max-w-5xl mx-auto p-8 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
+        <div class="w-full md:w-1/2 text-left">
+          <p class="text-lg md:text-4xl opacity-80 mb-4 font-bold">
+            INTRODUCCIÓN
+          </p>
+          <p class="text-lg md:text-2xl opacity-80">
+            Para la realización de esta figura nos basamos en el arte de la artista coreana So Youn Lee y en las figuras contemporáneas de Lladró.
+            La obra de So Youn Lee se caracteriza por el uso de colores pasteles variados y las formas redondeadas, aspectos que tendríamos en cuenta para su creación. 
+          </p>
+        </div>
+        <div class="w-full md:w-1/3">
+          <a href="https://www.instagram.com/soyounlee/" target="_blank" class="block hover:opacity-90 transition-opacity">
+            <img 
+              src="/imagenes/Modelado/Introducción.jpg" 
+              alt="Introducción" 
+              class="w-full h-auto rounded-xl shadow-lg object-cover"
+            >
+          </a>
+        </div>
+      </div>
+    </section>
 
-<main>
-
-  <section class="w-full bg-[rgb(203,147,179)] text-white">
-  
-  <div class="max-w-5xl mx-auto p-8 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
-    
-    <div class="w-full md:w-1/2 text-left">
-      <p class="text-lg md:text-4xl opacity-80 mb-4 font-bold">
-        INTRODUCCIÓN
-      </p>
-      <p class="text-lg md:text-2xl opacity-80">
-        Para la realización de esta figura nos basamos en el arte de artista coreana So Youn Lee y en las figuras contemporáneas de Lladró.
-        La obra de So Youn Lee se caracteriza por el uso de colores pasteles variados y las formas redondeadas, aspectos que tendríamos en cuenta para su creación. 
-      </p>
-    </div>
-
-   <div class="w-full md:w-1/3">
-  <a href="https://www.instagram.com/soyounlee/" target="_blank" class="block hover:opacity-90 transition-opacity">
-    <img 
-      src="/imagenes/Modelado/Introducción.jpg" 
-      alt="" 
-      class="w-full h-auto rounded-xl shadow-lg object-cover"
-    >
-  </a>
-</div>
-
-  </div>
-  
-</section>
-  </main>
-
-  <main>
     <section>
       <div class="max-w-5xl mx-auto p-8 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
-        
         <div class="w-full md:w-1/2 border-7 border-[#a9d9c3] rounded-2xl p-3">
           <Carousel :plugins="plugins" :opts="{ loop: true }" class="relative w-full max-w-sm mx-auto">
             <CarouselContent>
@@ -111,7 +104,6 @@ const resultado = [
             <CarouselNext />
           </Carousel>
         </div>
-
         <div class="w-full md:w-1/2 text-right">
           <p class="text-lg md:text-4xl opacity-80 mb-4 font-bold text-left">
             PROCESO
@@ -122,57 +114,45 @@ const resultado = [
             Para finalizar, horneamos la figura, la lijamos, pintamos y barnizamos para crear un efecto brillante. 
           </p>
         </div>
-
       </div>
     </section>
-  </main>
 
+    <section class="relative flex justify-center items-center py-12 w-full px-4 overflow-hidden min-h-150">
+      <img 
+        src="/imagenes/Modelado/Elemento1.png" 
+        alt="" 
+        class="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 w-1/1 max-w-200 object-contain opacity-60 -z-10 pointer-events-none"
+      />
+      <img 
+        src="/imagenes/Modelado/Elemento2.png" 
+        alt="" 
+        class="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 w-1/1 max-w-200 object-contain opacity-60 -z-10 pointer-events-none"
+      />
+      <Carousel
+        orientation="vertical"
+        class="relative w-full max-w-2xl mx-auto mb-12"
+        :opts="{
+          align: 'start',
+        }"
+      >
+        <CarouselContent class="-mt-1 h-125">
+          <CarouselItem v-for="imagen in resultado" :key="imagen.id" class="pt-1 md:basis-1/2">
+            <div class="p-1 h-full">
+              <img 
+                :src="imagen.src" 
+                :alt="imagen.alt" 
+                class="w-full h-full object-cover rounded-xl shadow-md border"
+              />
+            </div>
+          </CarouselItem>
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
+    </section>
 
-  <main>
-  <section class="relative flex justify-center items-center py-12 w-full px-4 overflow-hidden min-h-150">
-
-    <img 
-      src="/imagenes/Modelado/Elemento1.png" 
-      alt="" 
-      class="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 w-1/1 max-w-200 object-contain opacity-60 -z-10 pointer-events-none"
-    />
-
-    <img 
-      src="/imagenes/Modelado/Elemento2.png" 
-      alt="" 
-      class="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 w-1/1 max-w-200 object-contain opacity-60 -z-10 pointer-events-none"
-    />
-    <Carousel
-      orientation="vertical"
-      class="relative w-full max-w-2xl mx-auto mb-12 "
-      :opts="{
-        align: 'start',
-      }"
-    >
-      <CarouselContent class="-mt-1 h-125">
-        
-        <CarouselItem v-for="imagen in resultado" :key="imagen.id" class="pt-1 md:basis-1/2">
-          <div class="p-1 h-full">
-            
-            <img 
-              :src="imagen.src" 
-              :alt="imagen.alt" 
-              class="w-full h-full object-cover rounded-xl shadow-md border"
-            />
-
-          </div>
-        </CarouselItem>
-
-      </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel>
-  
-
-  </section>
   </main>
 </template>
-
 <style scoped>
 
 </style>
