@@ -47,7 +47,7 @@ import { Button } from '@/components/ui/button'
 
 
     <Button class="bg-[rgb(162,196,70)] mr-2 md: py-5 md:px-6 md: text-lg hover:bg-[rgb(162,196,70,0.7)] transition-all">
-    <RouterLink to="/audiovisual">Audiovisual</RouterLink>
+    <RouterLink to="/ilustración">Ilustración</RouterLink>
    </Button>
   
 

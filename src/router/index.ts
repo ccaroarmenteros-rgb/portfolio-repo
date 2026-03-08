@@ -1,7 +1,6 @@
 
 import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "@/pages/home/Home.vue";
-import Audiovisual from "@/pages/audiovisual/Audiovisual.vue";
 import Diseño from "@/pages/diseño/Diseño.vue";
 import Modelado from "@/pages/modelado/Modelado.vue";
 import Informacion from "@/pages/informacion/Informacion.vue";
@@ -9,6 +8,7 @@ import Muñeca from "@/pages/modelado/Muñeca.vue";
 import Bici from "@/pages/modelado/Bici.vue";
 import Llaveros from "@/pages/modelado/Llaveros.vue";
 import Detalle from"@/pages/modelado/Detalle.vue";
+import Ilustración from "@/pages/ilustración/Ilustración.vue";
 
 export const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -19,9 +19,9 @@ export const router = createRouter({
       component: Home
     },
     {
-       path: '/audiovisual',
-       name: 'audiovisual',
-       component: Audiovisual
+       path: '/ilustración',
+       name: 'ilustración',
+       component: Ilustración
     },
      {
        path: '/diseño',

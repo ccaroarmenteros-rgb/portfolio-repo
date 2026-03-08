@@ -45,7 +45,7 @@ export const modelados: Modelado[] = [
   },
   {
     id: 6,
-    titulo: 'Perro',
+    titulo: 'Perrito',
     imagenCarrusel: '/imagenes/Modelado/Perro.png', 
     videoDetalle: '/imagenes/Modelado/Perro.MP4',
     descripcion: 'Llavero de perrito vestido de fresa.'
