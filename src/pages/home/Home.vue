@@ -1,64 +1,46 @@
  <script lang="ts" setup>
-import { Button } from '@/components/ui/button'
-
-
-
-
-
 
 </script>
-
-
-
-
 <template>
+  <div class="bg-[url('/imagenes/Home/Portada.jpg')] bg-contain bg-center bg-no-repeat h-screen w-screen fixed overflow-hidden flex flex-col justify-center items-center font-sans">
 
+   <div class="z-10 flex flex-row justify-center items-center gap-2 md:gap-4 w-full px-2">
 
-<div class="bg-[rgb(255,255,255)] h-screen text-black font-sans text-center w-screen flex flex-col justify-center items-center gap-12 fixed overflow-hidden">
+      <RouterLink to="/modelado" class="transition-transform duration-300 hover:scale-110 w-full flex justify-center">
+        <img 
+          src="/imagenes/Home/BotónModelado.PNG" 
+          alt="Modelado" 
+          class="w-full max-w-37.5 md:max-w-112.5 aspect-square object-contain hover:opacity-90 transition-all cursor-pointer" 
+        />
+      </RouterLink>
 
+      <RouterLink to="/diseño" class="transition-transform duration-300 hover:scale-110 w-full flex justify-center">
+        <img 
+          src="/imagenes/Home/BotónDiseño.PNG"
+          alt="Diseño" 
+          class="w-full max-w-37.5 md:max-w-112.5 aspect-square object-contain hover:opacity-90 transition-all cursor-pointer" 
+        />
+      </RouterLink>
 
+      <RouterLink to="/ilustración" class="transition-transform duration-300 hover:scale-110 w-full flex justify-center">
+        <img 
+          src="/imagenes/Home/BotónIlustración.PNG"
+          alt="Ilustración" 
+          class="w-full max-w-37.5 md:max-w-112.5 aspect-square object-contain hover:opacity-90 transition-all cursor-pointer" 
+        />
+      </RouterLink>
 
+      <RouterLink to="/informacion" class="transition-transform duration-300 hover:scale-110 w-full flex justify-center">
+        <img 
+          src="/imagenes/Home/BotónInformación.PNG"  
+          alt="¿Quién soy?" 
+          class="w-full max-w-37.5 md:max-w-112.5 aspect-square object-contain hover:opacity-90 transition-all cursor-pointer" 
+        />
+      </RouterLink>
 
-
-<h1 class="text-5xl md:text-7xl lg:text-7xl font-bold pb-1 md:pb-1 z-10 transition-all">
-  <span>Cristina Caro</span>
-</h1>
-
-<p class="text-lg md:text-2xl transition-all">
- Diseño y modelado
-</p>
-
-
-
-<div class="z-10">
-   <Button class="bg-[rgb(162,196,70)] mr-2 md: py-5 md:px-6 md: text-lg hover:bg-[rgb(162,196,70,0.7)] transition-all">
-      <RouterLink to="/informacion">¿Quién soy?</RouterLink>
-   </Button>
-
-
-    <Button class="bg-[rgb(162,196,70)] mr-2 md: py-5 md:px-6 md: text-lg hover:bg-[rgb(162,196,70,0.7)] transition-all">
-      <RouterLink to="/modelado">Modelado</RouterLink>
-   </Button>
-
-
-    <Button class="bg-[rgb(162,196,70)] mr-2 md: py-5 md:px-6 md: text-lg hover:bg-[rgb(162,196,70,0.7)] transition-all">
-      <RouterLink to="/diseño">Diseño</RouterLink>
-   </Button>
-
-
-    <Button class="bg-[rgb(162,196,70)] mr-2 md: py-5 md:px-6 md: text-lg hover:bg-[rgb(162,196,70,0.7)] transition-all">
-    <RouterLink to="/ilustración">Ilustración</RouterLink>
-   </Button>
-  
-
-
-    </div>
-
-
-   </div>
+</div>
+</div>
 </template>
-
-
 <style scoped>
  
 

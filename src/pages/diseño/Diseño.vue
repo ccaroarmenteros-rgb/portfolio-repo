@@ -9,12 +9,17 @@ import {
 } from '@/components/ui/carousel'
 import Autoplay from 'embla-carousel-autoplay'
 
-const plugins = [
+const pluginsInsoul = [
   Autoplay({
     delay: 2000, 
   })
 ]
 
+const pluginsKaoka = [
+  Autoplay({
+    delay: 2000, 
+  })
+]
 const insoul = [
   { id: 1, src: '/imagenes/Diseño/Mesa1.jpg', alt: '' },
   { id: 2, src: '/imagenes/Diseño/Mesa2.jpg', alt: '' },
@@ -73,25 +78,24 @@ const kaoka = [
     />
   </div>
 
-  <div class="w-full md:w-1/3 flex md:justify-end justify-center relative z-20">
-    <div class="w-full max-w-sm  p-3">
-      <Carousel :plugins="plugins" :opts="{ loop: true }" class="relative w-full">
-        <CarouselContent>
-          <CarouselItem v-for="photo in insoul" :key="photo.id">
-            <div class="p-1">
-              <img 
-                :src="photo.src" 
-                :alt="photo.alt" 
-                class="w-full h-64 object-cover rounded-xl shadow-md"
-              />
-            </div>
-          </CarouselItem>
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
-    </div>
+<div class="w-full md:w-1/3 flex md:justify-end justify-center relative z-20">
+  <div class="w-full max-w-sm rounded-2xl p-3 bg-[rgb(242,236,248)]">
+    <Carousel :plugins="pluginsInsoul" :opts="{ loop: true }" class="relative w-full">
+      <CarouselContent>
+        <CarouselItem v-for="photo in insoul" :key="photo.id">
+          <div class="p-1">
+            <img 
+              :src="photo.src" 
+              :alt="photo.alt" 
+              class="w-full h-64 object-contain rounded-xl"
+            /> </div>
+        </CarouselItem>
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
   </div>
+</div>
 
 </section>
 
@@ -110,26 +114,24 @@ const kaoka = [
       class="w-[120%] max-w-none h-auto object-cover shadow-2xl transition-transform duration-500 hover:scale-105 -my-20 md:-my-32 relative z-30"
     />
   </div>
-
-  <div class="w-full md:w-1/3 flex md:justify-end justify-center relative z-20">
-    <div class="w-full max-w-sm rounded-2xl p-3">
-      <Carousel :plugins="plugins" :opts="{ loop: true }" class="relative w-full">
-        <CarouselContent>
-          <CarouselItem v-for="photo in kaoka" :key="photo.id">
-            <div class="p-1">
-              <img 
-                :src="photo.src" 
-                :alt="photo.alt" 
-                class="w-full h-64 object-cover shadow-md rounded-xl"
-              />
-            </div>
-          </CarouselItem>
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
-    </div>
+<div class="w-full md:w-1/3 flex md:justify-end justify-center relative z-20">
+  <div class="w-full max-w-sm rounded-2xl p-3  bg-amber-50">
+    <Carousel :plugins="pluginsKaoka" :opts="{ loop: true }" class="relative w-full">
+      <CarouselContent>
+        <CarouselItem v-for="photo in kaoka" :key="photo.id">
+          <div class="p-1">
+            <img 
+              :src="photo.src" 
+              :alt="photo.alt" 
+              class="w-full h-64 object-contain rounded-xl"
+            /> </div>
+        </CarouselItem>
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
   </div>
+</div>
 
 </section>
 <section class="relative flex-1 w-full flex flex-col md:flex-row justify-between items-center px-8 md:px-24 py-12 overflow-hidden bg-[rgb(227,178,192)] transition-colors duration-500 group cursor-pointer gap-8 md:gap-12">
