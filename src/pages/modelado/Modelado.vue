@@ -1,6 +1,6 @@
 
 <script setup lang="ts">
-
+import { HouseHeart } from 'lucide-vue-next'
 </script>
 
 
@@ -9,15 +9,38 @@
     
     <div v-if="$route.name === 'modelado'" class="py-12 px-4 max-w-5xl mx-auto">
        
-    <nav class="relative z-30 w-full bg-white px-6 py-4 shadow-md flex items-center justify-between">
-      <button 
-        @click="$router.push('/')" 
-        class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium rounded-md transition-colors flex items-center gap-2"
-      >
-        <span>&larr;</span> Volver a Home
-      </button>
-    </nav>
-      <h1 class="text-4xl font-bold text-center mb-8">Mis Proyectos de Modelado</h1>
+     
+     <nav class="relative z-30 w-full bg-white px-6 py-4 shadow-md flex items-center justify-between">
+    <button 
+      @click="$router.push('/')" 
+      class="p-2 bg-[rgb(154,106,123)] hover:bg-[rgb(183,132,151)] text-white rounded-md transition-colors flex items-center justify-center"
+      aria-label="Volver a Home"
+    >
+      <HouseHeart class="w-6 h-6" />
+    </button>
+  </nav>
+
+     <section class="relative w-full h-64 md:h-96 flex items-center justify-center overflow-hidden">
+      <img 
+        src="/imagenes/Home/Claro.jpg" 
+        alt="" 
+        class="absolute inset-0 w-full h-full object-cover z-0"
+      />
+        <h1 class="schoolbell-regular relative z-20 text-5xl md:text-7xl font-bold text-[rgb(154,106,123)] transition-all px-4 flex items-center justify-center gap-6">
+            <span>MODELADO</span>
+            
+            <img 
+              src="/imagenes/Home/BotónModelado.png"
+              alt="Ilustración" 
+              class="h-35 md:h-52 w-auto object-contain hover:opacity-90 transition-all cursor-pointer" 
+            />
+        </h1>
+      
+      
+    </section>
+
+
+
 
       <nav class="flex flex-wrap justify-center gap-4 mb-12">
         <router-link 
@@ -52,5 +75,11 @@
 
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Schoolbell&display=swap');
 
+.schoolbell-regular {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 </style>
