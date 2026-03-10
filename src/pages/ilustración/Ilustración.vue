@@ -7,21 +7,21 @@ const galeria = [
     id: 1, 
     originalSrc: '/imagenes/Ilustración/Verde.jpg', 
     hoverSrc: '/imagenes/Ilustración/Detrás.jpg',
-    alt: 'Ilustración Verde',
+    alt: '',
     clases: 'md:col-span-2 order-1' 
   },
   { 
     id: 2, 
     originalSrc: '/imagenes/Ilustración/Rosa.jpg', 
     hoverSrc: '/imagenes/Ilustración/DetrásRosa.jpg',
-    alt: 'Ilustración Rosa',
+    alt: '',
     clases: 'md:col-span-2 order-2' 
   },
   { 
     id: 3, 
     originalSrc: '/imagenes/Ilustración/Ilustracion.jpg', 
     hoverSrc: '',
-    alt: 'Ilustración Principal',
+    alt: '',
     clases: 'md:col-span-2 order-3' 
   },
   { 
@@ -51,7 +51,7 @@ const galeria = [
     id: 7, 
     originalSrc: '/imagenes/Ilustración/Chapa.jpg', 
     hoverSrc: '',
-    alt: 'Chapa',
+    alt: '',
     clases: 'md:col-span-3 order-7',
     objectFitClase: '' 
   },
@@ -59,7 +59,7 @@ const galeria = [
     id: 8, 
     originalSrc: '/imagenes/Ilustración/Jazz.PNG', 
     hoverSrc: '',
-    alt: 'Chapa',
+    alt: '',
     clases: 'md:col-span-3 order-8',
     objectFitClase: '' 
   },
@@ -67,32 +67,32 @@ const galeria = [
     id: 9, 
     originalSrc: '/imagenes/Ilustración/Texturas.jpg', 
     hoverSrc: '',
-    alt: 'Chapa',
+    alt: '',
     clases: 'md:col-span-3 order-9 w-2/3 mx-auto ',
     objectFitClase: 'object-contain' 
   },
+ { 
+    id: 10, 
+    originalSrc: '/imagenes/Ilustración/Flor.jpg', 
+    hoverSrc: '',
+    alt: '',
+    clases: 'md:col-span-2 order-10', 
+    objectFitClase: 'object-cover' 
+  },
   { 
-  id: 10, 
-  originalSrc: '/imagenes/Ilustración/Flor.jpg', 
-  hoverSrc: '',
-  alt: 'Flor',
-  clases: 'md:col-span-3 order-10 w-2/3 mx-auto', 
-  objectFitClase: '' 
-},
-{ 
-  id: 11, 
-  originalSrc: '/imagenes/Ilustración/Pastel.jpg', 
-  hoverSrc: '',
-  alt: '',
-  clases: 'md:col-span-3 order-11 w-2/3 mx-auto',
-  objectFitClase: '' 
-},
+    id: 11, 
+    originalSrc: '/imagenes/Ilustración/Pastel.jpg', 
+    hoverSrc: '',
+    alt: '',
+    clases: 'md:col-span-2 order-11',
+    objectFitClase: 'object-cover' 
+  },
   { 
     id: 12, 
     originalSrc: '/imagenes/Ilustración/Volcán.jpg', 
     hoverSrc: '',
     alt: '',
-    clases: 'md:col-span-3 w-2/3 order-12 mx-auto',
+    clases: 'md:col-span-2 order-12',
     objectFitClase: 'object-cover' 
   },
   { 
@@ -100,7 +100,7 @@ const galeria = [
     originalSrc: '/imagenes/Ilustración/Gato.jpg', 
     hoverSrc: '',
     alt: '',
-    clases: 'md:col-span-3  order-13',
+    clases: 'md:col-span-4  order-13',
     objectFitClase: 'object-contain' 
   },
   
@@ -122,15 +122,15 @@ import { HouseHeart } from 'lucide-vue-next'
   </nav>
 
     <section class="relative w-full h-64 md:h-96 flex items-center justify-center overflow-hidden">
-  <img src="/imagenes/Home/Claro.jpg" alt="" class="absolute inset-0 w-full h-full object-cover z-0" />
+  
   <h1 class="schoolbell-regular relative z-20 text-5xl md:text-7xl font-bold text-[rgb(154,106,123)] transition-all px-4 flex items-center justify-center gap-6">
     <span>ILUSTRACIÓN</span>
     <img src="/imagenes/Home/BotónIlustración.png" alt="Ilustración" class="h-35 md:h-52 w-auto object-contain hover:opacity-90 transition-all cursor-pointer" />
   </h1>
 </section>
 
-<div class="w-full bg-white py-2 overflow-hidden border-b border-t border-gray-100 shadow-sm flex items-center">
-  <p class="schoolbell-regular whitespace-nowrap text-[rgb(154,106,123)] text-xl font-bold animate-marquee-lr">
+<div class="w-full bg-[rgb(154,106,123)] py-2 overflow-hidden border-b border-t border-gray-100 shadow-sm flex items-center">
+  <p class="schoolbell-regular whitespace-nowrap text-white text-xl font-bold animate-marquee-lr">
  Bienvenido a mi galeria ♡ Descubre mis ilustraciones ♡ Arte tradicionar y digital 
   </p>
  

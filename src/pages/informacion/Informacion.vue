@@ -35,11 +35,7 @@ import { HouseHeart } from 'lucide-vue-next'
   </nav>
 
       <section class="relative w-full h-64 md:h-96 flex items-center justify-center overflow-hidden">
-      <img 
-        src="/imagenes/Home/Claro.jpg" 
-        alt="" 
-        class="absolute inset-0 w-full h-full object-cover z-0"
-      />
+     
         <h1 class="schoolbell-regular relative z-20 text-5xl md:text-7xl font-bold text-[rgb(154,106,123)] transition-all px-4 flex items-center justify-center gap-6">
             <span>¿QUIÉN SOY?</span>
             
@@ -50,21 +46,20 @@ import { HouseHeart } from 'lucide-vue-next'
             />
         </h1>
      </section>
-     <section class="w-full bg-[rgb(203,147,179)] text-white">
+     <section class="w-full bg-[rgb(154,106,123)] text-white">
       <div class="max-w-5xl mx-auto p-8 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
         <div class="w-full md:w-1/2 text-left">
-          <p class="text-lg md:text-4xl opacity-80 mb-4 font-bold">
-            INTRODUCCIÓN
-          </p>
-          <p class="text-lg md:text-2xl opacity-80">
-            Para la realización de esta figura nos basamos en el arte de la artista coreana So Youn Lee y en las figuras contemporáneas de Lladró.
-            La obra de So Youn Lee se caracteriza por el uso de colores pasteles variados y las formas redondeadas, aspectos que tendríamos en cuenta para su creación. 
+         
+          <p class="text-lg md:text-2xl opacity-80 funnel-display">
+            Me llamo Cristina Caro Armenteros y soy estudiante de 2º año en el grado de Diseño y Tecnologías Creativas impartido por la UPV.
+            Tengo habilidades en campos como el diseño, tipografía o ilustración pero estoy más especializada en trabajos de modelado o de audiovisual.
+            En cuanto a softwares, controlo sin problemas los programas de Adobe como  Photoshop, Ilustrator, InDesign o Premiere. También manejo programas de ilustración y animación como Procreate o Dreams.
           </p>
         </div>
         <div class="w-full md:w-1/3">
-          <a href="https://www.instagram.com/soyounlee/" target="_blank" class="block hover:opacity-90 transition-opacity">
+          <a href="https://www.instagram.com/ccris.is/" target="_blank" class="block hover:opacity-90 transition-opacity">
             <img 
-              src="/imagenes/Modelado/Introducción.jpg" 
+              src="/imagenes/Home/FotoYo.jpeg" 
               alt="Introducción" 
               class="w-full h-auto rounded-xl shadow-lg object-cover"
             >
@@ -74,18 +69,18 @@ import { HouseHeart } from 'lucide-vue-next'
     </section>
 
  </main>
-  <section id="contactus" class="w-full py-12 bg-gray-100">
+  <section id="contactus" class="w-full py-12 bg-[rgb(208,180,190)]">
 
 
   <div class="container mx-auto max-w-5xl px-4">
 
 
-    <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">¡Contáctame!</h2>
+    <h2 class=" schoolbell-regular text-3xl font-bold text-[rgb(154,106,123)] mb-8 text-center">¡Contáctame!</h2>
          
     <div class="flex flex-col lg:flex-row gap-8 items-center">
 
 
-            <!-- Mapa de Google Maps -->
+   
       <div class="hidden lg:block w-full lg:w-1/2 rounded-lg overflow-hidden shadow-lg">
         <div class="aspect-square">
        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.9350118127413!2d-0.3466125878486056!3d39.48372267148631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd60488259073375%3A0xfb410ba707ca33c9!2sUPV%20-%20Facultad%20de%20Bellas%20Artes%20BBAA!5e1!3m2!1ses!2ses!4v1771255889705!5m2!1ses!2ses"
@@ -101,9 +96,9 @@ import { HouseHeart } from 'lucide-vue-next'
       </div>
 
 
-            <!-- Formulario -->
+          
       <div class="w-full max-w-md mx-auto lg:max-w-none lg:w-1/2 ">
-        <form  class="space-y-6 bg-white p-8 rounded-lg shadow-lg aspect-square">
+        <form  class=" schoolbell-regular space-y-6 bg-white p-8 rounded-lg shadow-lg aspect-square">
           <div class="space-y-2">
                  
                <Label for="nomen">Nombre</Label>
@@ -123,10 +118,10 @@ import { HouseHeart } from 'lucide-vue-next'
 
           <div class="space-y-2">
               <Select required>
-                  <SelectTrigger class="border-gray-200 bg-white text-gray-900">
+                  <SelectTrigger class="border-gray-200 bg-white text-gray-900 schoolbell-regular ">
                     <SelectValue placeholder="Selecciona tu campo de interés" />
                   </SelectTrigger>
-                  <SelectContent class="bg-white
+                  <SelectContent class="bg-white 
                   ">
                     <SelectItem value="rescatare">
                       Modelado
@@ -169,7 +164,7 @@ import { HouseHeart } from 'lucide-vue-next'
 
           <Button
           type="submit"
-          class="w-full bg-[rgb(106,90,205)] hover:bg-[rgb(88,75,171)] text-white text-md mt-4">
+          class="w-full bg-[rgb(154,106,123)] hover:bg-[rgb(216,170,186)] text-white text-md mt-4">
             Enviar solicitud
           </Button>
              
@@ -180,14 +175,14 @@ import { HouseHeart } from 'lucide-vue-next'
 </section>
 
 
-    <footer class="w-full bg-[rgb(245,214,233)] text-gray-300 py-12">
+    <footer class="w-full bg-[rgb(154,106,123)] text-gray-300 py-12">
       <div class="flex flex-col md:flex-row md:justify-around gap-8 max-w-3xl mx-auto">
 
 
         <div class="space-y-4 text-center md:text-left">
 
 
-          <h3 class="text-xl font-bold text-white">Información de Contacto</h3>
+          <h3 class=" schoolbell-regular text-xl font-bold text-white">Información de Contacto</h3>
                
             <div class="space-y-2">
               <p class="flex items-center gap-2 justify-center md:justify-start text-white">
@@ -212,14 +207,13 @@ import { HouseHeart } from 'lucide-vue-next'
           </div>
 
 
-          <!-- Redes sociales -->
+         
           <div class="space-y-4 text-center md:text-left text-white">
-            <h3 class="text-xl font-bold text-white">Sígueme</h3>
+            <h3 class=" schoolbell-regular text-xl font-bold text-white">Sígueme</h3>
             <div class="flex gap-8 justify-center">
-            <X class= "w-10 h-10 hover:text-blue-200"/>
-            <Instagram class= "w-10 h-10 hover:text-blue-200"/>
-            <Linkedin class= "w-10 h-10 hover:text-blue-200"/>
-            <MessageCircle class= "w-10 h-10 hover:text-blue-200"/>
+            <Instagram class= "w-10 h-10 hover:text-[rgb(216,170,186)]"/>
+            <p class="text-lg md:text-3xl opacity-80 mb-4 font-bold">
+              @ccris.is</p>
             </div>
         </div>
       </div>
@@ -231,9 +225,16 @@ import { HouseHeart } from 'lucide-vue-next'
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Schoolbell&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 .schoolbell-regular {
   font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.funnel-display {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }

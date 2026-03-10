@@ -25,12 +25,12 @@ import { modelados } from './data';
         
         <button 
           @click="$router.push('/modelado')" 
-          class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium rounded-md transition-colors flex items-center gap-2"
+          class=" schoolbell-regular px-4 py-2 bg-[rgb(58,76,87)] hover:bg-[rgb(99,123,138)] text-white font-medium rounded-md transition-colors flex items-center gap-2"
         >
           <span>&larr;</span> Volver a Modelado
         </button>
 
-        <h1 class="text-4xl font-bold text-gray-800 text-center flex-1 pr-10 md:pr-32">
+        <h1 class=" schoolbell-regular text-4xl font-bold text-gray-800 text-center flex-1 pr-10 md:pr-32">
          ¡ Elige tu llavero !
         </h1>
         
@@ -76,5 +76,11 @@ import { modelados } from './data';
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Schoolbell&display=swap');
 
+.schoolbell-regular {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 </style>

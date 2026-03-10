@@ -3,13 +3,13 @@
 </script>
 
 
-<template>
+<template >
   <main class="w-full flex flex-col min-h-screen">
     
     <nav class="relative z-30 w-full bg-white px-6 py-4 shadow-md flex items-center justify-between">
       <button 
         @click="$router.push('/modelado')" 
-        class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium rounded-md transition-colors flex items-center gap-2"
+        class=" schoolbell-regular px-4 py-2 bg-[rgb(73,25,21)] hover:bg-[rgb(112,55,50)] text-white font-medium rounded-md transition-colors flex items-center gap-2"
       >
         <span>&larr;</span> Volver a Modelado
       </button>
@@ -21,10 +21,10 @@
         alt="Fondo de montaña" 
         class="absolute inset-0 w-full h-full object-cover z-0"
       />
-      <div class="absolute inset-0 bg-black/50 z-10"></div>
+      <div class="absolute inset-0 bg-black/60 z-10"></div>
 
-      <div class="relative z-20 flex flex-col items-center justify-center text-center px-4">
-        <h1 class="text-8xl md:text-7xl font-bold text-white mb-4">
+      <div class=" wallpoet-regular relative z-20 flex flex-col items-center justify-center text-center px-4">
+        <h1 class="   text-9xl md:text-8xl  text-white mb-4">
           Miniatura
         </h1>
         <img 
@@ -35,10 +35,10 @@
       </div>
     </section>
 
-    <section class="py-12 px-4 w-full bg-[rgb(225,225,225)]"> 
+    <section class="py-12 px-4 w-full bg-[rgb(184,199,191)]"> 
       <div class="max-w-7xl mx-auto flex flex-col md:flex-row w-full overflow-hidden rounded-xl shadow-sm">
         
-        <div class="w-full md:w-1/2 bg-red-950 flex flex-col md:flex-row items-center p-6 gap-6">
+        <div class="w-full md:w-1/2 bg-[rgb(73,25,21)] flex flex-col md:flex-row items-center p-6 gap-6">
           <div class="w-full md:w-1/2">
             <img 
               src="/imagenes/Modelado/CartelBici2.jpg" 
@@ -47,7 +47,7 @@
             >
           </div>
           <div class="w-full md:w-1/2 flex items-center justify-center">
-            <p class="text-center md:text-left text-white">
+            <p class=" funnel-display text-center md:text-left text-white">
               Para la realización de este proyecto me propusieron crear una miniatura de la bicicleta Santa Cruz Nomad C OxBlood.
               Antes de comenzar a modelar, hice un análisis completo de la bici, realicé múltiples fotografías y cree una plantilla para utilizar como base.
               Para modelar la bicicleta, fui creando cada parte de esta por separado, con base de alambre recubierta de "Sculpey". Una vez las partes estaban horneadas y pintadas comencé a montar la bicicleta ayudándome de pequeños clavos y pegamento. 
@@ -69,7 +69,7 @@
             >
           </div>
           <div class="w-full md:w-1/2 flex items-center justify-center">
-            <p class="text-center md:text-left text-gray-700">
+            <p class="funnel-display text-center md:text-left text-gray-700">
               Para añadir los últimos detalles, como los nombres de las marcas de los componentes de la bici, maqueté e imprimí unos cuantos elementos.
               Por último, realicé un diseño de packaging y un folleto con toda la información.
               La bicleta una vez finalizada mide 7cm de alto y 12cm de largo.
@@ -80,7 +80,7 @@
       </div>
     </section>
 
-    <section class="flex flex-col md:flex-row w-full gap-4"> 
+    <section class="flex flex-col md:flex-row w-full gap-4 items-center justify-center"> 
       <div class="w-full md:w-1/2">
         <img 
           src="/imagenes/Modelado/Bici.jpg" 
@@ -102,5 +102,28 @@
 
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+.schoolbell-regular {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wallpoet-regular {
+  font-family: "Wallpoet", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.funnel-display {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 </style>

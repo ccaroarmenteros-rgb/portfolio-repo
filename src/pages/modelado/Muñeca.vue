@@ -44,7 +44,7 @@ const resultado = [
     <nav class="relative z-30 w-full bg-white px-6 py-4 shadow-md flex items-center justify-between">
       <button 
         @click="$router.push('/modelado')" 
-        class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium rounded-md transition-colors flex items-center gap-2"
+        class=" schoolbell-regular px-4 py-2 bg-[rgb(154,106,123)] hover:bg-[rgb(179,137,151)] gray-200 text-white font-medium rounded-md transition-colors flex items-center gap-2"
       >
         <span>&larr;</span> Volver a Modelado
       </button>
@@ -57,33 +57,46 @@ const resultado = [
         class="absolute inset-0 w-full h-full object-cover z-0"
       />
       <div class="absolute inset-0 bg-black/50 z-10"></div>
-      <h1 class="relative z-20 text-5xl md:text-7xl font-bold text-white transition-all text-center px-4">
-        FIGURA SO YOUN LEE
+      <h1 class="festive-regular relative z-20 text-6xl md:text-8xl font-bold text-white transition-all text-center px-4">
+        Figura So Youn Lee
       </h1>
     </section>
 
-    <section class="w-full bg-[rgb(203,147,179)] text-white">
-      <div class="max-w-5xl mx-auto p-8 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
-        <div class="w-full md:w-1/2 text-left">
-          <p class="text-lg md:text-4xl opacity-80 mb-4 font-bold">
-            INTRODUCCIÓN
-          </p>
-          <p class="text-lg md:text-2xl opacity-80">
-            Para la realización de esta figura nos basamos en el arte de la artista coreana So Youn Lee y en las figuras contemporáneas de Lladró.
-            La obra de So Youn Lee se caracteriza por el uso de colores pasteles variados y las formas redondeadas, aspectos que tendríamos en cuenta para su creación. 
-          </p>
-        </div>
-        <div class="w-full md:w-1/3">
-          <a href="https://www.instagram.com/soyounlee/" target="_blank" class="block hover:opacity-90 transition-opacity">
-            <img 
-              src="/imagenes/Modelado/Introducción.jpg" 
-              alt="Introducción" 
-              class="w-full h-auto rounded-xl shadow-lg object-cover"
-            >
-          </a>
-        </div>
+    <section class="w-full bg-[rgb(193,146,173)] text-white">
+  <div class="max-w-5xl mx-auto p-8 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
+    
+    <div class="w-full md:w-1/2 text-left">
+      <p class="elsie-swash-caps-regular text-lg md:text-4xl opacity-80 mb-4 font-bold">
+        INTRODUCCIÓN
+      </p>
+      <p class="playfair-display text-lg md:text-2xl opacity-80">
+        Para la realización de esta figura nos basamos en el arte de la artista coreana So Youn Lee y en las figuras contemporáneas de Lladró.
+        La obra de So Youn Lee se caracteriza por el uso de colores pasteles variados y las formas redondeadas, aspectos que tendríamos en cuenta para su creación. 
+      </p>
+    </div>
+    
+    <div class="w-full md:w-1/2 flex flex-row items-center gap-1">
+      
+      <a href="https://www.instagram.com/soyounlee/" target="_blank" class="w-1/2 hover:opacity-70 transition-opacity">
+        <img 
+          src="/imagenes/Modelado/Introducción.jpg" 
+          alt="Introducción" 
+          class="w-full h-auto rounded-xl shadow-lg object-cover"
+        >
+      </a>
+      
+      <div class="w-1/2">
+        <img 
+          src="/imagenes/Modelado/Pulsa.png" 
+          alt="Pulsa aquí" 
+          class="w-full h-auto object-cover"
+        >
       </div>
-    </section>
+      
+    </div>
+    
+  </div>
+</section>
 
     <section>
       <div class="max-w-5xl mx-auto p-8 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
@@ -105,10 +118,10 @@ const resultado = [
           </Carousel>
         </div>
         <div class="w-full md:w-1/2 text-right">
-          <p class="text-lg md:text-4xl opacity-80 mb-4 font-bold text-left">
+          <p class=" elsie-swash-caps-regular text-lg md:text-4xl opacity-80 mb-4 font-bold text-left">
             PROCESO
           </p>
-          <p class="text-lg md:text-2xl opacity-80 text-left">
+          <p class=" playfair-display text-lg md:text-1xl opacity-80 text-left">
             Tras realizar tanto bocetos dibujados como con plastilina, comenzamos a formar la estructura base con alambre y papel de plata. 
             Una vez formada, ya solo se trataba de ir añadiendo "Sculpey" y modelarlo con las herramientas adecuadas para lograr el acabado que buscábamos.
             Para finalizar, horneamos la figura, la lijamos, pintamos y barnizamos para crear un efecto brillante. 
@@ -154,5 +167,35 @@ const resultado = [
   </main>
 </template>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lexend:wght@100..900&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&family=Festive&family=Lexend:wght@100..900&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&family=Festive&family=Lexend:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Schoolbell&display=swap');
+.schoolbell-regular {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.festive-regular {
+  font-family: "Festive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.elsie-swash-caps-regular {
+  font-family: "Elsie Swash Caps", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 </style>

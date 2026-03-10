@@ -58,11 +58,7 @@ import { HouseHeart } from 'lucide-vue-next'
   </nav>
 
      <section class="relative w-full h-64 md:h-96 flex items-center justify-center overflow-hidden">
-      <img 
-        src="/imagenes/Home/Claro.jpg" 
-        alt="" 
-        class="absolute inset-0 w-full h-full object-cover z-0"
-      />
+      
         <h1 class="schoolbell-regular relative z-20 text-5xl md:text-7xl font-bold text-[rgb(154,106,123)] transition-all px-4 flex items-center justify-center gap-6">
             <span>DISEÑO</span>
             
@@ -76,8 +72,8 @@ import { HouseHeart } from 'lucide-vue-next'
       
     </section>
 
-    <div class="w-full bg-white py-2 overflow-hidden border-b border-t border-gray-100 shadow-sm flex items-center">
-        <p class="schoolbell-regular whitespace-nowrap text-[rgb(154,106,123)] text-xl font-bold animate-marquee-lr">
+    <div class="w-full bg-[rgb(154,106,123)] py-2 overflow-hidden border-b border-t border-gray-100 shadow-sm flex items-center">
+         <p class="schoolbell-regular whitespace-nowrap text-white text-xl font-bold animate-marquee-lr">
       Trabajos destacados ♡ Descubre mis diseños ♡ Todo tipo de soportes
         </p>
  
@@ -86,7 +82,7 @@ import { HouseHeart } from 'lucide-vue-next'
  <section class="relative flex-1 w-full flex flex-col md:flex-row justify-between items-center px-8 md:px-24 py-12 bg-[rgb(214,209,241)] transition-colors duration-500 group cursor-pointer gap-8 md:gap-12">
   
   <div class="w-full md:w-1/3 flex justify-start">
-    <h2 class="relative z-20 text-5xl md:text-6xl font-bold text-white transition-transform duration-500 group-hover:translate-x-4">
+    <h2 class=" climate-crisis relative z-20 text-4xl md:text-5xl font-bold text-white transition-transform duration-500 group-hover:translate-x-4">
       Diseño de producto
     </h2>
   </div>
@@ -123,7 +119,7 @@ import { HouseHeart } from 'lucide-vue-next'
   <section class="relative flex-1 w-full flex flex-col md:flex-row justify-between items-center px-8 md:px-24 py-12 bg-[rgb(253,236,201)] transition-colors duration-500 group cursor-pointer gap-8 md:gap-12">
   
   <div class="w-full md:w-1/3 flex justify-start">
-    <h2 class="relative z-20 text-5xl md:text-6xl font-bold text-yellow-950 transition-transform duration-500 group-hover:translate-x-4">
+    <h2 class=" modak-regular relative z-20 text-6xl md:text-7xl font-bold text-yellow-950 transition-transform duration-500 group-hover:translate-x-4">
       Branding
     </h2>
   </div>
@@ -158,7 +154,7 @@ import { HouseHeart } from 'lucide-vue-next'
 <section class="relative flex-1 w-full flex flex-col md:flex-row justify-between items-center px-8 md:px-24 py-12 overflow-hidden bg-[rgb(227,178,192)] transition-colors duration-500 group cursor-pointer gap-8 md:gap-12">
   
   <div class="w-full md:w-1/3 flex justify-start">
-    <h2 class="relative z-20 text-5xl md:text-6xl font-bold text-white transition-transform duration-500 group-hover:translate-x-4">
+    <h2 class=" ultra-regular relative z-20 text-5xl md:text-6xl font-bold text-white transition-transform duration-500 group-hover:translate-x-4">
       Diseño gráfico
     </h2>
   </div>
@@ -194,7 +190,9 @@ import { HouseHeart } from 'lucide-vue-next'
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Schoolbell&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 .schoolbell-regular {
   font-family: "Schoolbell", cursive;
   font-weight: 400;
@@ -204,6 +202,27 @@ import { HouseHeart } from 'lucide-vue-next'
 .animate-marquee-lr {
   display: inline-block;
   animation: scroll-left-to-right 35s linear infinite; 
+}
+.modak-regular {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.climate-crisis {
+  font-family: "Climate Crisis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "YEAR" 1979;
+}
+
+
+.ultra-regular {
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @keyframes scroll-left-to-right {
