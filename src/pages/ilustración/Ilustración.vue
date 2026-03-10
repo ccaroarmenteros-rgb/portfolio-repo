@@ -28,7 +28,7 @@ const galeria = [
     id: 5, 
     originalSrc: '/imagenes/Ilustración/Comic.jpg', 
     hoverSrc: '/imagenes/Ilustración/ComicColor.jpg',
-    alt: 'Cómic',
+    alt: '',
     clases: 'md:col-span-3 order-4 ', 
     objectFitClase: 'object-contain' 
   },
@@ -36,14 +36,14 @@ const galeria = [
     id: 4, 
     originalSrc: '/imagenes/Ilustración/Amarillo.jpg', 
     hoverSrc: '/imagenes/Ilustración/Azul.jpg',
-    alt: 'Ilustración Amarilla',
+    alt: '',
     clases: 'md:col-span-3 order-5 ' 
   },
 { 
     id: 6, 
-    originalSrc: '/imagenes/Ilustración/Gato.jpg', 
+    originalSrc: '/imagenes/Ilustración/Mon.jpg', 
     hoverSrc: '',
-    alt: 'Gato',
+    alt: '',
     clases: 'md:col-span-3 order-6',
     objectFitClase: 'object-contain' 
   },
@@ -55,6 +55,56 @@ const galeria = [
     clases: 'md:col-span-3 order-7',
     objectFitClase: '' 
   },
+  { 
+    id: 8, 
+    originalSrc: '/imagenes/Ilustración/Jazz.PNG', 
+    hoverSrc: '',
+    alt: 'Chapa',
+    clases: 'md:col-span-3 order-8',
+    objectFitClase: '' 
+  },
+  { 
+    id: 9, 
+    originalSrc: '/imagenes/Ilustración/Texturas.jpg', 
+    hoverSrc: '',
+    alt: 'Chapa',
+    clases: 'md:col-span-3 order-9 w-2/3 mx-auto ',
+    objectFitClase: 'object-contain' 
+  },
+  { 
+  id: 10, 
+  originalSrc: '/imagenes/Ilustración/Flor.jpg', 
+  hoverSrc: '',
+  alt: 'Flor',
+  clases: 'md:col-span-3 order-10 w-2/3 mx-auto', 
+  objectFitClase: '' 
+},
+{ 
+  id: 11, 
+  originalSrc: '/imagenes/Ilustración/Pastel.jpg', 
+  hoverSrc: '',
+  alt: '',
+  clases: 'md:col-span-3 order-11 w-2/3 mx-auto',
+  objectFitClase: '' 
+},
+  { 
+    id: 12, 
+    originalSrc: '/imagenes/Ilustración/Volcán.jpg', 
+    hoverSrc: '',
+    alt: '',
+    clases: 'md:col-span-3 w-2/3 order-12 mx-auto',
+    objectFitClase: 'object-cover' 
+  },
+  { 
+    id: 13, 
+    originalSrc: '/imagenes/Ilustración/Gato.jpg', 
+    hoverSrc: '',
+    alt: '',
+    clases: 'md:col-span-3  order-13',
+    objectFitClase: 'object-contain' 
+  },
+  
+  
 ]
 import { HouseHeart } from 'lucide-vue-next'
 </script>
@@ -72,23 +122,19 @@ import { HouseHeart } from 'lucide-vue-next'
   </nav>
 
     <section class="relative w-full h-64 md:h-96 flex items-center justify-center overflow-hidden">
-      <img 
-        src="/imagenes/Home/Claro.jpg" 
-        alt="" 
-        class="absolute inset-0 w-full h-full object-cover z-0"
-      />
-        <h1 class="schoolbell-regular relative z-20 text-5xl md:text-7xl font-bold text-[rgb(154,106,123)] transition-all px-4 flex items-center justify-center gap-6">
-            <span>ILUSTRACIÓN</span>
-            
-            <img 
-              src="/imagenes/Home/BotónIlustración.png"
-              alt="Ilustración" 
-              class="h-35 md:h-52 w-auto object-contain hover:opacity-90 transition-all cursor-pointer" 
-            />
-        </h1>
-      
-      
-    </section>
+  <img src="/imagenes/Home/Claro.jpg" alt="" class="absolute inset-0 w-full h-full object-cover z-0" />
+  <h1 class="schoolbell-regular relative z-20 text-5xl md:text-7xl font-bold text-[rgb(154,106,123)] transition-all px-4 flex items-center justify-center gap-6">
+    <span>ILUSTRACIÓN</span>
+    <img src="/imagenes/Home/BotónIlustración.png" alt="Ilustración" class="h-35 md:h-52 w-auto object-contain hover:opacity-90 transition-all cursor-pointer" />
+  </h1>
+</section>
+
+<div class="w-full bg-white py-2 overflow-hidden border-b border-t border-gray-100 shadow-sm flex items-center">
+  <p class="schoolbell-regular whitespace-nowrap text-[rgb(154,106,123)] text-xl font-bold animate-marquee-lr">
+ Bienvenido a mi galeria ♡ Descubre mis ilustraciones ♡ Arte tradicionar y digital 
+  </p>
+ 
+</div>
 
    <section class="w-full max-w-7xl mx-auto px-6 py-16">
  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-6 auto-rows-auto">
@@ -128,5 +174,19 @@ import { HouseHeart } from 'lucide-vue-next'
   font-family: "Schoolbell", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.animate-marquee-lr {
+  display: inline-block;
+  animation: scroll-left-to-right 35s linear infinite; 
+}
+
+@keyframes scroll-left-to-right {
+  0% {
+    transform: translateX(-100%); 
+  }
+  100% {
+    transform: translateX(100vw); 
+  }
 }
 </style>

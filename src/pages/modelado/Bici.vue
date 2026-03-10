@@ -48,8 +48,8 @@
           </div>
           <div class="w-full md:w-1/2 flex items-center justify-center">
             <p class="text-center md:text-left text-white">
-              Para la realización de este proyecto me propusieron crear una miniatura de la bicicleta Santa Cruz Nomad C OxBlood, procurando ser fiel a todos los detalles posibles.
-              Antes de comenzar a modelar, hice un análisis completo de la bici, realicé múltiples fotografías desde todo tipo de ángulos y cree un plano para utilizar como base.
+              Para la realización de este proyecto me propusieron crear una miniatura de la bicicleta Santa Cruz Nomad C OxBlood.
+              Antes de comenzar a modelar, hice un análisis completo de la bici, realicé múltiples fotografías y cree una plantilla para utilizar como base.
               Para modelar la bicicleta, fui creando cada parte de esta por separado, con base de alambre recubierta de "Sculpey". Una vez las partes estaban horneadas y pintadas comencé a montar la bicicleta ayudándome de pequeños clavos y pegamento. 
             </p>
           </div>

@@ -76,6 +76,13 @@ import { HouseHeart } from 'lucide-vue-next'
       
     </section>
 
+    <div class="w-full bg-white py-2 overflow-hidden border-b border-t border-gray-100 shadow-sm flex items-center">
+        <p class="schoolbell-regular whitespace-nowrap text-[rgb(154,106,123)] text-xl font-bold animate-marquee-lr">
+      Trabajos destacados ♡ Descubre mis diseños ♡ Todo tipo de soportes
+        </p>
+ 
+    </div>
+
  <section class="relative flex-1 w-full flex flex-col md:flex-row justify-between items-center px-8 md:px-24 py-12 bg-[rgb(214,209,241)] transition-colors duration-500 group cursor-pointer gap-8 md:gap-12">
   
   <div class="w-full md:w-1/3 flex justify-start">
@@ -194,5 +201,18 @@ import { HouseHeart } from 'lucide-vue-next'
   font-style: normal;
 }
 
+.animate-marquee-lr {
+  display: inline-block;
+  animation: scroll-left-to-right 35s linear infinite; 
+}
+
+@keyframes scroll-left-to-right {
+  0% {
+    transform: translateX(-100%); 
+  }
+  100% {
+    transform: translateX(100vw); 
+  }
+}
 
 </style>

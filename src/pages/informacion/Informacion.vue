@@ -50,6 +50,28 @@ import { HouseHeart } from 'lucide-vue-next'
             />
         </h1>
      </section>
+     <section class="w-full bg-[rgb(203,147,179)] text-white">
+      <div class="max-w-5xl mx-auto p-8 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
+        <div class="w-full md:w-1/2 text-left">
+          <p class="text-lg md:text-4xl opacity-80 mb-4 font-bold">
+            INTRODUCCIÓN
+          </p>
+          <p class="text-lg md:text-2xl opacity-80">
+            Para la realización de esta figura nos basamos en el arte de la artista coreana So Youn Lee y en las figuras contemporáneas de Lladró.
+            La obra de So Youn Lee se caracteriza por el uso de colores pasteles variados y las formas redondeadas, aspectos que tendríamos en cuenta para su creación. 
+          </p>
+        </div>
+        <div class="w-full md:w-1/3">
+          <a href="https://www.instagram.com/soyounlee/" target="_blank" class="block hover:opacity-90 transition-opacity">
+            <img 
+              src="/imagenes/Modelado/Introducción.jpg" 
+              alt="Introducción" 
+              class="w-full h-auto rounded-xl shadow-lg object-cover"
+            >
+          </a>
+        </div>
+      </div>
+    </section>
 
  </main>
   <section id="contactus" class="w-full py-12 bg-gray-100">
