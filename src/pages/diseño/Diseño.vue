@@ -8,6 +8,8 @@ import {
   CarouselPrevious
 } from '@/components/ui/carousel'
 import Autoplay from 'embla-carousel-autoplay'
+import BarraAnimada from '@/components/BarraAnimada.vue'
+import NavBar from '@/components/NavBar.vue'
 
 const pluginsInsoul = [
   Autoplay({
@@ -40,22 +42,14 @@ const kaoka = [
   
  
 ]
-import { HouseHeart } from 'lucide-vue-next'
+
 </script>
 
 
 <template>
   <main class="w-full flex flex-col min-h-screen">
     
-    <nav class="relative z-30 w-full bg-white px-6 py-4 shadow-md flex items-center justify-between">
-      <button 
-        @click="$router.push('/')" 
-        class="p-2 bg-[rgb(154,106,123)] hover:bg-[rgb(183,132,151)] text-white rounded-md transition-colors flex items-center justify-center"
-        aria-label="Volver a Home"
-      >
-        <HouseHeart class="w-6 h-6" />
-      </button>
-    </nav>
+    <NavBar ruta="/" />
 
     <section class="relative w-full h-48 md:h-64 lg:h-96 flex items-center justify-center overflow-hidden">
       <h1 class="schoolbell-regular relative z-20 text-4xl md:text-6xl lg:text-7xl font-bold text-[rgb(154,106,123)] transition-all px-4 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6">
@@ -68,11 +62,8 @@ import { HouseHeart } from 'lucide-vue-next'
       </h1>
     </section>
 
-    <div class="w-full bg-[rgb(154,106,123)] py-2 overflow-hidden border-b border-t border-gray-100 shadow-sm flex items-center">
-      <p class="schoolbell-regular whitespace-nowrap text-white text-xl font-bold animate-marquee-lr">
-        Trabajos destacados ♡ Descubre mis diseños ♡ Todo tipo de soportes
-      </p>
-    </div>
+    <BarraAnimada texto="Trabajos destacados ♡ Descubre mis diseños ♡ Todo tipo de soportes" />
+    
 
     <section class="relative flex-1 w-full flex flex-row flex-wrap lg:flex-nowrap justify-between items-center px-4 md:px-12 lg:px-24 py-8 lg:py-12 bg-[rgb(214,209,241)] transition-colors duration-500 group cursor-pointer gap-y-8 lg:gap-12 overflow-hidden">
       
@@ -224,13 +215,5 @@ import { HouseHeart } from 'lucide-vue-next'
   font-style: normal;
 }
 
-@keyframes scroll-left-to-right {
-  0% {
-    transform: translateX(-100%); 
-  }
-  100% {
-    transform: translateX(100vw); 
-  }
-}
 
 </style>

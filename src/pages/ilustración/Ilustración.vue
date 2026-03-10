@@ -3,6 +3,9 @@
 <script setup lang="ts">
 import { useFadeIn } from '../composable/useFadeIn'
 const { isVisible, elementRef } = useFadeIn()
+import BarraAnimada from '@/components/BarraAnimada.vue'
+import NavBar from '@/components/NavBar.vue'
+typeof elementRef;
 
 const galeria = [
   { 
@@ -108,20 +111,12 @@ const galeria = [
   
   
 ]
-import { HouseHeart } from 'lucide-vue-next'
+
 </script>
 
 <template>
   <main class="w-full flex flex-col min-h-screen">
-     <nav class="relative z-30 w-full bg-white px-6 py-4 shadow-md flex items-center justify-between">
-    <button 
-      @click="$router.push('/')" 
-      class="p-2 bg-[rgb(154,106,123)] hover:bg-[rgb(183,132,151)] text-white rounded-md transition-colors flex items-center justify-center"
-      aria-label="Volver a Home"
-    >
-      <HouseHeart class="w-6 h-6" />
-    </button>
-  </nav>
+    <NavBar ruta="/" />
 
     <section class="relative w-full h-64 md:h-96 flex items-center justify-center overflow-hidden">
   
@@ -131,12 +126,9 @@ import { HouseHeart } from 'lucide-vue-next'
   </h1>
 </section>
 
-<div class="w-full bg-[rgb(154,106,123)] py-2 overflow-hidden border-b border-t border-gray-100 shadow-sm flex items-center">
-  <p class="schoolbell-regular whitespace-nowrap text-white text-xl font-bold animate-marquee-lr">
- Bienvenido a mi galeria ♡ Descubre mis ilustraciones ♡ Arte tradicionar y digital 
-  </p>
- 
-</div>
+
+<BarraAnimada texto= "Bienvenido a mi galeria ♡ Descubre mis ilustraciones ♡ Arte tradicionar y digital" /> 
+  
 
    <section class="w-full max-w-7xl mx-auto px-6 py-16">
   
@@ -187,12 +179,5 @@ import { HouseHeart } from 'lucide-vue-next'
   animation: scroll-left-to-right 35s linear infinite; 
 }
 
-@keyframes scroll-left-to-right {
-  0% {
-    transform: translateX(-100%); 
-  }
-  100% {
-    transform: translateX(100vw); 
-  }
-}
+
 </style>

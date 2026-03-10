@@ -1,6 +1,8 @@
 
 <script setup lang="ts">
-import { HouseHeart } from 'lucide-vue-next'
+
+import BarraAnimada from '@/components/BarraAnimada.vue'
+import NavBar from '@/components/NavBar.vue'
 </script>
 
 
@@ -9,14 +11,7 @@ import { HouseHeart } from 'lucide-vue-next'
     
     <div v-if="$route.name === 'modelado'">
        
-      <nav class="relative z-30 w-full bg-white px-6 py-4 shadow-md flex items-center justify-between">
-        <button @click="$router.push('/')" 
-         class="p-2 bg-[rgb(154,106,123)] hover:bg-[rgb(183,132,151)] text-white rounded-md transition-colors flex items-center justify-center"
-        aria-label="Volver a Home"
-    >
-      <HouseHeart class="w-6 h-6" />
-        </button>
-      </nav>
+      <NavBar ruta="/" />
 
       <section class="relative w-full h-64 md:h-96 flex items-center justify-center overflow-hidden">
        
@@ -24,17 +19,10 @@ import { HouseHeart } from 'lucide-vue-next'
             <span>MODELADO</span>
             <img src="/imagenes/Home/BotónModelado.png" alt="Ilustración" class="h-35 md:h-52 w-auto object-contain hover:opacity-90 transition-all cursor-pointer" />
         </h1>
-      </section>
-
-      
-     <div class="w-full bg-[rgb(154,106,123)] py-2 overflow-hidden border-b border-t border-gray-100 shadow-sm flex items-center">
-  <p class="schoolbell-regular whitespace-nowrap text-white text-xl font-bold animate-marquee-lr">
-      ♡ Descubre mis trabajos de modelado destacados♡
-        </p>
-      </div>
-
-      
-
+      </section>    
+     
+<BarraAnimada texto= "♡ Descubre mis trabajos de modelado destacados♡"/>
+        
    <section class="w-full bg-[url('/imagenes/Home/Claro.jpg')] bg-cover bg-center py-12">
   
   <div class="max-w-6xl mx-auto px-4">
@@ -102,12 +90,5 @@ import { HouseHeart } from 'lucide-vue-next'
   animation: scroll-left-to-right 35s linear infinite; 
 }
 
-@keyframes scroll-left-to-right {
-  0% {
-    transform: translateX(-100%); 
-  }
-  100% {
-    transform: translateX(100vw); 
-  }
-}
+
 </style>

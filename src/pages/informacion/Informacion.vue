@@ -2,7 +2,7 @@
 <script setup lang="ts">
 import { Button } from '@/components/ui/button'
 import { Calendar } from '@/components/ui/calendar'
-import { Phone,Mail,MapPin, X, Instagram, Linkedin, MessageCircle} from 'lucide-vue-next'
+import { Phone,Mail, Instagram,} from 'lucide-vue-next'
 import { Label } from '@/components/ui/label'
 import { Input } from '@/components/ui/input'
 import {
@@ -15,8 +15,8 @@ import {
 import type { DateValue } from 'reka-ui'
 import { ref } from 'vue'
 const dies = ref<DateValue>()
-import { HouseHeart } from 'lucide-vue-next'
-   
+
+import NavBar from '@/components/NavBar.vue'
 
 </script>
 
@@ -24,16 +24,7 @@ import { HouseHeart } from 'lucide-vue-next'
 <template>
      <main class="w-full flex flex-col min-h-screen">
     
-    <nav class="relative z-30 w-full bg-white px-6 py-4 shadow-md flex items-center justify-between">
-    <button 
-      @click="$router.push('/')" 
-      class="p-2 bg-[rgb(154,106,123)] hover:bg-[rgb(183,132,151)] text-white rounded-md transition-colors flex items-center justify-center"
-      aria-label="Volver a Home"
-    >
-      <HouseHeart class="w-6 h-6" />
-    </button>
-  </nav>
-
+    <NavBar ruta="/" />
       <section class="relative w-full h-64 md:h-96 flex items-center justify-center overflow-hidden">
      
         <h1 class="schoolbell-regular relative z-20 text-5xl md:text-7xl font-bold text-[rgb(154,106,123)] transition-all px-4 flex items-center justify-center gap-6">
