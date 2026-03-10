@@ -1,6 +1,8 @@
 
 
 <script setup lang="ts">
+import { useFadeIn } from '../composable/useFadeIn'
+const { isVisible, elementRef } = useFadeIn()
 
 const galeria = [
   { 
@@ -137,12 +139,17 @@ import { HouseHeart } from 'lucide-vue-next'
 </div>
 
    <section class="w-full max-w-7xl mx-auto px-6 py-16">
- <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-6 auto-rows-auto">
+  
+  <div 
+    ref="elementRef"
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-6 auto-rows-auto transition-all duration-1000 ease-out"
+    :class="isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'"
+  >
     
     <div 
       v-for="imagen in galeria" 
       :key="imagen.id" 
-      :class="['relative overflow-hidden  cursor-pointer group ', imagen.clases]"
+      :class="['relative overflow-hidden cursor-pointer group', imagen.clases]"
     >
       <img 
         :src="imagen.originalSrc" 
@@ -159,7 +166,6 @@ import { HouseHeart } from 'lucide-vue-next'
         class="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0 group-hover:opacity-100"
       />
     </div>
-
 
   </div>
 </section>

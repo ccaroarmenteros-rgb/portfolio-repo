@@ -15,25 +15,26 @@
       </button>
     </nav>
 
-    <section class="relative w-full h-64 md:h-96 flex items-center justify-center overflow-hidden bg-red-950">
-      <img 
-        src="/imagenes/Modelado/Montaña.jpg" 
-        alt="Fondo de montaña" 
-        class="absolute inset-0 w-full h-full object-cover z-0"
-      />
-      <div class="absolute inset-0 bg-black/60 z-10"></div>
+  <section class="relative w-full h-64 md:h-96 flex items-center justify-center overflow-hidden bg-red-950">
+  <img 
+    src="/imagenes/Modelado/Montaña.jpg" 
+    alt="Fondo de montaña" 
+    class="absolute inset-0 w-full h-full object-cover z-0"
+  />
+  <div class="absolute inset-0 bg-black/60 z-10"></div>
 
-      <div class=" wallpoet-regular relative z-20 flex flex-col items-center justify-center text-center px-4">
-        <h1 class="   text-9xl md:text-8xl  text-white mb-4">
-          Miniatura
-        </h1>
-        <img 
-          src="/imagenes/Modelado/SantaCruz.png" 
-          alt="Modelo de Santa Cruz" 
-          class="w-48 md:w-64 h-auto object-contain"
-        >
-      </div>
-    </section>
+  <div class="wallpoet-regular relative z-20 flex flex-col items-center justify-center text-center px-4">
+    <h1 class="text-6xl md:text-8xl lg:text-9xl text-white mb-4">
+      Miniatura
+    </h1>
+    
+    <img 
+      src="/imagenes/Modelado/SantaCruz.png" 
+      alt="Modelo de Santa Cruz" 
+      class="w-48 md:w-64 h-auto object-contain"
+    >
+  </div>
+</section>
 
     <section class="py-12 px-4 w-full bg-[rgb(184,199,191)]"> 
       <div class="max-w-7xl mx-auto flex flex-col md:flex-row w-full overflow-hidden rounded-xl shadow-sm">
