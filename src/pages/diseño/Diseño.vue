@@ -56,7 +56,7 @@ const kaoka = [
         <span>DISEÑO</span>
         <img 
           src="/imagenes/Home/BotónDiseño.png"
-          alt="Ilustración" 
+          alt="" 
           class="h-20 md:h-32 lg:h-52 w-auto object-contain hover:opacity-90 transition-all cursor-pointer" 
         />
       </h1>
@@ -76,7 +76,7 @@ const kaoka = [
       <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center items-center relative z-30 px-2 lg:px-0">
         <img 
           src="/imagenes/Diseño/Insoul.png"  
-          alt="Imagen Insoul" 
+          alt="" 
           class="w-full md:w-[90%] lg:w-[120%] max-w-sm md:max-w-md lg:max-w-none h-auto object-cover shadow-2xl transition-transform duration-500 hover:scale-105 my-4 lg:-my-32 relative z-30"
         />
       </div>
@@ -113,7 +113,7 @@ const kaoka = [
       <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center items-center relative z-30 px-2 lg:px-0">
         <img 
           src="/imagenes/Diseño/Kaoka2.png"  
-          alt="Imagen central" 
+          alt="" 
           class="w-full md:w-[90%] lg:w-[120%] max-w-sm md:max-w-md lg:max-w-none h-auto object-cover shadow-2xl transition-transform duration-500 hover:scale-105 my-4 lg:-my-32 relative z-30"
         />
       </div>
@@ -151,7 +151,7 @@ const kaoka = [
         <div class="flex justify-center items-center">
           <img 
             src="/imagenes/Diseño/Lujuria.jpg"  
-            alt="Lujuria" 
+            alt="" 
             class="w-full max-w-xs md:max-w-50 lg:max-w-xs h-auto object-cover shadow-lg transition-transform duration-500 hover:scale-105"
           />
         </div>
@@ -159,7 +159,7 @@ const kaoka = [
         <div class="flex justify-center items-center">
           <img 
             src="/imagenes/Diseño/Geometria.jpg"  
-            alt="Geometría" 
+            alt="" 
             class="w-full max-w-xs md:max-w-50 lg:max-w-xs h-auto object-cover shadow-lg transition-transform duration-500 hover:scale-105"
           />
         </div>
@@ -167,7 +167,7 @@ const kaoka = [
         <div class="flex justify-center items-center">
           <img 
             src="/imagenes/Diseño/Textura.jpg"  
-            alt="Textura" 
+            alt="" 
             class="w-full max-w-xs md:max-w-50 lg:max-w-xs h-auto object-cover shadow-lg transition-transform duration-500 hover:scale-105"
           />
         </div>

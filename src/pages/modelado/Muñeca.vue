@@ -80,7 +80,7 @@ const resultado = [
       <a href="https://www.instagram.com/soyounlee/" target="_blank" class="w-1/2 hover:opacity-70 transition-opacity">
         <img 
           src="/imagenes/Modelado/Introducción.jpg" 
-          alt="Introducción" 
+          alt="" 
           class="w-full h-auto rounded-xl shadow-lg object-cover"
         >
       </a>
@@ -88,7 +88,7 @@ const resultado = [
       <div class="w-1/2">
         <img 
           src="/imagenes/Modelado/Pulsa.png" 
-          alt="Pulsa aquí" 
+          alt="" 
           class="w-full h-auto object-cover"
         >
       </div>

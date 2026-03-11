@@ -17,7 +17,9 @@ import NavBar from '@/components/NavBar.vue'
        
         <h1 class="schoolbell-regular relative z-20 text-5xl md:text-7xl font-bold text-[rgb(154,106,123)] transition-all px-4 flex items-center justify-center gap-6">
             <span>MODELADO</span>
-            <img src="/imagenes/Home/BotónModelado.png" alt="Ilustración" class="h-35 md:h-52 w-auto object-contain hover:opacity-90 transition-all cursor-pointer" />
+            <img src="/imagenes/Home/BotónModelado.png" 
+            alt="" 
+            class="h-35 md:h-52 w-auto object-contain hover:opacity-90 transition-all cursor-pointer" />
         </h1>
       </section>    
      
@@ -32,7 +34,7 @@ import NavBar from '@/components/NavBar.vue'
       <div class="flex flex-col items-center gap-4 bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
         <img 
         src="/imagenes/Modelado/Muñeca.jpg" 
-        alt="Muñeca" 
+        alt="" 
         class="w-full h-64 object-cover rounded-xl shadow-inner"/>
         <router-link
          to="/modelado/muneca" 
@@ -44,7 +46,7 @@ import NavBar from '@/components/NavBar.vue'
       <div class="flex flex-col items-center gap-4 bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
         <img 
         src="/imagenes/Modelado/BiciAzul.jpg" 
-        alt="Bici"
+        alt=""
          class="w-full h-64 object-cover rounded-xl shadow-inner"/>
         <router-link 
          to="/modelado/bici" 
@@ -56,7 +58,7 @@ import NavBar from '@/components/NavBar.vue'
       <div class="flex flex-col items-center gap-4 bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
         <img 
         src="/imagenes/Modelado/PezVerde.jpg"
-         alt="Llaveros" 
+         alt="" 
          class="w-full h-64 object-cover rounded-xl shadow-inner"/>
         <router-link 
          to="/modelado/llaveros"

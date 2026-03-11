@@ -122,7 +122,9 @@ const galeria = [
   
   <h1 class="schoolbell-regular relative z-20 text-5xl md:text-7xl font-bold text-[rgb(154,106,123)] transition-all px-4 flex items-center justify-center gap-6">
     <span>ILUSTRACIÓN</span>
-    <img src="/imagenes/Home/BotónIlustración.png" alt="Ilustración" class="h-35 md:h-52 w-auto object-contain hover:opacity-90 transition-all cursor-pointer" />
+    <img src="/imagenes/Home/BotónIlustración.png" 
+    alt="" 
+    class="h-35 md:h-52 w-auto object-contain hover:opacity-90 transition-all cursor-pointer" />
   </h1>
 </section>
 

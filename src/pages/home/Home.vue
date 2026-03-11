@@ -8,7 +8,7 @@
       <div>
         <img 
           src="/imagenes/Home/Cristina.png"
-          alt="Cristina" 
+          alt="" 
           class="w-full max-w-48 md:max-w-55 max-h-[20vh] object-contain hover:opacity-90 transition-all cursor-pointer" 
         />
       </div>
@@ -20,7 +20,7 @@
         <RouterLink to="/modelado" class="group relative transition-transform duration-300 hover:scale-105 md:hover:scale-110 flex justify-center">
           <img 
             src="/imagenes/Home/BotónModelado.png" 
-            alt="Modelado" 
+            alt="" 
             class="w-full max-w-32 md:max-w-55 max-h-[20vh] object-contain transition-opacity duration-300 group-hover:opacity-0 cursor-pointer" 
           />
           <div class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none">
@@ -31,7 +31,7 @@
         <RouterLink to="/diseño" class="group relative transition-transform duration-300 hover:scale-105 md:hover:scale-110 flex justify-center">
           <img 
             src="/imagenes/Home/BotónDiseño.png"
-            alt="Diseño" 
+            alt="" 
             class="w-full max-w-32 md:max-w-55 max-h-[20vh] object-contain transition-opacity duration-300 group-hover:opacity-0 cursor-pointer" 
           />
           <div class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none">
@@ -42,7 +42,7 @@
         <RouterLink to="/ilustración" class="group relative transition-transform duration-300 hover:scale-105 md:hover:scale-110 flex justify-center">
           <img 
             src="/imagenes/Home/BotónIlustración.png"
-            alt="Ilustración" 
+            alt="" 
             class="w-full max-w-32 md:max-w-55 max-h-[20vh] object-contain transition-opacity duration-300 group-hover:opacity-0 cursor-pointer" 
           />
           <div class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none">
@@ -53,7 +53,7 @@
         <RouterLink to="/informacion" class="group relative transition-transform duration-300 hover:scale-105 md:hover:scale-110 flex justify-center">
           <img 
             src="/imagenes/Home/BotónInformación.png"  
-            alt="¿Quién soy?" 
+            alt=" " 
             class="w-full max-w-32 md:max-w-55 max-h-[20vh] object-contain transition-opacity duration-300 group-hover:opacity-0 cursor-pointer" 
           />
           <div class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none">
@@ -68,12 +68,12 @@
       <div class="flex flex-col items-center gap-2">
         <img 
           src="/imagenes/Home/Portfolio.png"
-          alt="Portfolio" 
+          alt="" 
           class="w-full max-w-32 md:max-w-55 max-h-[15vh] object-contain hover:opacity-90 transition-all cursor-pointer" 
         />
         <img 
           src="/imagenes/Home/Yo.png"
-          alt="Yo" 
+          alt="" 
           class="w-full max-w-32 md:max-w-55 max-h-[15vh] object-contain hover:opacity-90 transition-all cursor-pointer" 
         />
       </div>

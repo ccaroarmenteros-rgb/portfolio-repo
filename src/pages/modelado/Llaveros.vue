@@ -17,7 +17,7 @@ import { modelados } from './data';
       
       <img 
         src="/imagenes/Modelado/Cuadros 2.jpg" 
-        alt="Fondo de cuadros" 
+        alt="" 
         class="absolute inset-0 w-full h-full object-cover z-0"
       />
       

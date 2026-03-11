@@ -32,7 +32,7 @@ import NavBar from '@/components/NavBar.vue'
             
             <img 
               src="/imagenes/Home/BotónInformación.png"
-              alt="Ilustración" 
+              alt="" 
               class="h-35 md:h-52 w-auto object-contain hover:opacity-90 transition-all cursor-pointer" 
             />
         </h1>
@@ -51,7 +51,7 @@ import NavBar from '@/components/NavBar.vue'
           <a href="https://www.instagram.com/ccris.is/" target="_blank" class="block hover:opacity-90 transition-opacity">
             <img 
               src="/imagenes/Home/FotoYo.jpeg" 
-              alt="Introducción" 
+              alt="" 
               class="w-full h-auto rounded-xl shadow-lg object-cover"
             >
           </a>

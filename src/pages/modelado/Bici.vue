@@ -18,7 +18,7 @@
   <section class="relative w-full h-64 md:h-96 flex items-center justify-center overflow-hidden bg-red-950">
   <img 
     src="/imagenes/Modelado/Montaña.jpg" 
-    alt="Fondo de montaña" 
+    alt="" 
     class="absolute inset-0 w-full h-full object-cover z-0"
   />
   <div class="absolute inset-0 bg-black/60 z-10"></div>
@@ -30,7 +30,7 @@
     
     <img 
       src="/imagenes/Modelado/SantaCruz.png" 
-      alt="Modelo de Santa Cruz" 
+      alt="" 
       class="w-48 md:w-64 h-auto object-contain"
     >
   </div>
@@ -85,14 +85,14 @@
       <div class="w-full md:w-1/2">
         <img 
           src="/imagenes/Modelado/Bici.jpg" 
-          alt="Bici" 
+          alt="" 
           class="w-full h-auto object-cover rounded-lg border-20 border-white shadow-sm"
         >
       </div>
       <div class="w-full md:w-1/2">
         <img 
           src="/imagenes/Modelado/Muro.jpg" 
-          alt="Muro" 
+          alt="" 
           class="w-full h-auto object-cover rounded-lg border-20 border-white shadow-sm"
         >
       </div>
